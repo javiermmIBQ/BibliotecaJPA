@@ -9,7 +9,7 @@ cd build
 mv classes ../src/main/webapp/WEB-INF
 cd ..
 cd src/main/webapp
-sed -i 's/.*jakarta.persistence.jdbc.url.*/<property name="jakarta.persistence.jdbc.url" value="jdbc:mysql:\/\/192.168.18.128:3306\/biblioteca"\/>/' WEB-INF/classes/META-INF/persistence.xml
+#sed -i 's/.*jakarta.persistence.jdbc.url.*/<property name="jakarta.persistence.jdbc.url" value="jdbc:mysql:\/\/192.168.18.128:3306\/biblioteca"\/>/' WEB-INF/classes/META-INF/persistence.xml
 
 
 # Creamos el fichero WAR en la carpeta webapps de Tomcat
